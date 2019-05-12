@@ -45,7 +45,7 @@ m8_angle = 0
 # if angle is 0 - we need to output a monoline glyph with a straight pen angle
 # if one of the shift params is 0 - we nee to produce a monoline with a 45deg pen angle - that is what BroadNibber gives
 
-pathLayer = Glyphs.font.selectedLayers[0].parent.layers[0] # layer 0
+pathLayer = Glyphs.font.selectedLayers[0].parent.layers[8] # layer 0
 # clean up path and prepare them for copying:
 pathLayer.addExtremePoints()
 pathLayer.addInflectionPoints()
@@ -64,11 +64,11 @@ m = [m1, m2, m3, m4, m5, m6, m7, m8]
 
 # thisLayer.beginChanges() # increase performance and prevent undo problems
 
-OUTPUTLAYERS = range(1, 9)
+OUTPUTLAYERS = range(0, 8)
 
 # copy path to master
 for layer in OUTPUTLAYERS:
- 	currMaster = Glyphs.font.selectedLayers[0].parent.layers[layer]
+ 	currMaster = Glyphs.font.selectedLayers[0].parent.layers[layer].background
 	currMaster.paths = []
 	currMaster.components = []
 
@@ -83,9 +83,9 @@ for layer in OUTPUTLAYERS:
  	if (pathLayer.anchors):
 		currMaster.anchors = copy.copy(pathLayer.anchors)
 
-	width = m[layer - 1][0]
-	height = m[layer - 1][1]
-	angle = m[layer - 1][2]
+	width = m[layer][0]
+	height = m[layer][1]
+	angle = m[layer][2]
 
 	# if angle > 0 we can use the copy path method
 	if angle != 0:

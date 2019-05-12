@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
 .appVersion = "1204";
+=======
+.appVersion = "1206";
+>>>>>>> 050fe9410f0c4f09978d7f746a4ef3b0c191ee07
 DisplayStrings = (
 "/gimel-hb",
 E,
@@ -38,6 +42,15 @@ fontMaster = (
 ascender = 800;
 capHeight = 700;
 custom = "BroadNib-Contrast-Regular";
+<<<<<<< HEAD
+=======
+customParameters = (
+{
+name = "Master Icon Glyph Name";
+value = "gimel-hb";
+}
+);
+>>>>>>> 050fe9410f0c4f09978d7f746a4ef3b0c191ee07
 descender = -200;
 guideLines = (
 {
@@ -55,6 +68,15 @@ xHeight = 500;
 ascender = 800;
 capHeight = 700;
 custom = "BroadNib-Contrast-";
+<<<<<<< HEAD
+=======
+customParameters = (
+{
+name = "Master Icon Glyph Name";
+value = "gimel-hb";
+}
+);
+>>>>>>> 050fe9410f0c4f09978d7f746a4ef3b0c191ee07
 descender = -200;
 guideLines = (
 {
@@ -76,6 +98,15 @@ xHeight = 500;
 ascender = 800;
 capHeight = 700;
 custom = "BroadNib-LowContrast-";
+<<<<<<< HEAD
+=======
+customParameters = (
+{
+name = "Master Icon Glyph Name";
+value = "gimel-hb";
+}
+);
+>>>>>>> 050fe9410f0c4f09978d7f746a4ef3b0c191ee07
 descender = -200;
 guideLines = (
 {
@@ -93,6 +124,15 @@ xHeight = 500;
 ascender = 800;
 capHeight = 700;
 custom = "BroadNib-LowContrast-Regular";
+<<<<<<< HEAD
+=======
+customParameters = (
+{
+name = "Master Icon Glyph Name";
+value = "gimel-hb";
+}
+);
+>>>>>>> 050fe9410f0c4f09978d7f746a4ef3b0c191ee07
 descender = -200;
 guideLines = (
 {
@@ -113,6 +153,15 @@ ascender = 800;
 capHeight = 700;
 custom = "PointedNib-LowContrast-Regular";
 customValue = 4;
+<<<<<<< HEAD
+=======
+customParameters = (
+{
+name = "Master Icon Glyph Name";
+value = "gimel-hb";
+}
+);
+>>>>>>> 050fe9410f0c4f09978d7f746a4ef3b0c191ee07
 descender = -200;
 guideLines = (
 {
@@ -129,6 +178,15 @@ ascender = 800;
 capHeight = 700;
 custom = "PointedNib-Contrast-Regular";
 customValue = 4;
+<<<<<<< HEAD
+=======
+customParameters = (
+{
+name = "Master Icon Glyph Name";
+value = "gimel-hb";
+}
+);
+>>>>>>> 050fe9410f0c4f09978d7f746a4ef3b0c191ee07
 descender = -200;
 guideLines = (
 {
@@ -149,6 +207,15 @@ ascender = 800;
 capHeight = 700;
 custom = "PointedNib-Contrast-";
 customValue = 4;
+<<<<<<< HEAD
+=======
+customParameters = (
+{
+name = "Master Icon Glyph Name";
+value = "gimel-hb";
+}
+);
+>>>>>>> 050fe9410f0c4f09978d7f746a4ef3b0c191ee07
 descender = -200;
 guideLines = (
 {
@@ -170,6 +237,15 @@ ascender = 800;
 capHeight = 700;
 custom = "PointedNib-LowContrast-";
 customValue = 4;
+<<<<<<< HEAD
+=======
+customParameters = (
+{
+name = "Master Icon Glyph Name";
+value = "gimel-hb";
+}
+);
+>>>>>>> 050fe9410f0c4f09978d7f746a4ef3b0c191ee07
 descender = -200;
 id = "FB8990CA-0F96-4B7B-86A4-9D429D534475";
 name = "PointedNib-LowContrast-Bold";
