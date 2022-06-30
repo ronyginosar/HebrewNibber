@@ -4,6 +4,7 @@ The HebrewNibber is an automated open source script to create all 
 8 typographic Masters (parametric extremities) 
 needed to recreate the Noordzij Cube for the Hebrew alphabet. 
 
+![plot](https://github.com/ronyginosar/HebrewNibber/blob/master/images/controlpoints_img.png)
 
 download zip for plugin pkg.
 
